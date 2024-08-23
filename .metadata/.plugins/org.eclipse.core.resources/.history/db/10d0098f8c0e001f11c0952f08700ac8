@@ -1,0 +1,610 @@
+package 변수;
+
+import java.util.Scanner;
+
+public class 변수만들기 {
+
+	public static void main(String[] args) {
+	/*
+		float f1 = 1.0000001f;
+		System.out.println(f1);
+		float f2 = 1.00000001f;
+		System.out.println(f2);
+		
+		double d1 = 1.000000000000001;
+		System.out.println(d1);
+		double d2 = 1.0000000000000001;
+		System.out.println(d2);
+		
+		boolean bool1 = true;
+		boolean bool2 = false;
+		System.out.println(bool1);
+		System.out.println(bool2);
+		
+		byte value1 = 10;
+		short value2 = -10;
+		int value3 = 100;
+		long value4 = -100L;
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println(value3);
+		System.out.println(value4);
+		
+		float value5 = 1.2F;
+		double value6 = -1.5;
+		double value7 = 5;
+		System.out.println(value5);System.out.println(value6);
+		System.out.println(value7);
+		
+		 float value8 = -1.5F;
+		 byte value9 = 100;
+		 
+		 char a = 'A';
+		 char b = 65;
+		 char c = 0b1000001;
+		 char d = 0x0041;
+		 char e = '\u0041';
+		 System.out.println(a);
+		 System.out.println(b);
+		 System.out.println(c);
+	     System.out.println(d);
+		 System.out.println(e);
+	*/
+		 /*
+		char value1 = 'A';
+		char value2 = '가';
+		char value3 = '3';
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println(value3);
+		char value4 = 65 ;
+		char value5 = 0xac00;
+		char value6 = 51;
+		System.out.println(value4);
+		System.out.println(value5);
+		System.out.println(value6);
+		System.out.println();
+		char value7 = '\u0041';
+		char value8 = '\uac00';
+		char value9 = '\u0033';
+		System.out.println(value7);
+		System.out.println(value8);
+		System.out.println(value9);
+		System.out.println();
+	*/
+	/*	float value1 = 3;
+		long value2 = 5;
+		double value3 = 7;
+		byte value4 = 9;
+		short value5 = 11;
+		System.out.println(value1+"\n"+value2+"\n"+value3+"\n"+value4+"\n"+value5);
+		System.out.println();
+		byte value6 = (byte)128;
+		int value7 = (int)3.5;
+		float value8 = 7.5f;
+		System.out.println(value6+"\n"+value7+"\n"+value8+"\n");
+		*/
+		
+	/*	double a = 7.000000005;
+		System.out.println(a);
+		float b = (float)a;
+		System.out.println(b);
+		
+		*/
+	/*	int value1 = 3 + 5;
+		int value2 = 8 / 5;
+		float value3 = 3.0f + 5.0f;
+		double value4 = 8.0 / 5.0;
+				
+		byte data1 = 3;
+		byte data2 = 5;
+		int value5 = data1 + data2;
+		
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println(value3);
+		System.out.println(value4);
+		System.out.println(value5);
+		System.out.println();
+		
+		double value6 = 5 + 3.5;
+		int value7 = 5 + (int)3.5;
+		
+		double value8 = 5 / 2.0;
+		byte data3 = 3;
+		short data4 = 5;
+		int value9 = data3 + data4;
+		double value10 = data3 + data4;
+		
+		System.out.println(value6);
+		System.out.println(value7);
+		System.out.println(value8);
+		System.out.println(value9);
+		System.out.println(value10);
+		*/
+		/*
+	int value2 = 3;
+	++value2;
+	System.out.println(value2);
+	System.out.println();
+	
+	int value3 = 3;
+	int value4 = value3++;
+	System.out.println(value3);
+	System.out.println(value4);
+	System.out.println();
+	
+	int value5 = 3;
+	int value6 = ++value5;
+	System.out.println(value5);
+	System.out.println(value6);
+	System.out.println();
+	
+	int value7 = 3;
+	int value8 = 4;
+	int value9 = 2 + value7-- + ++value8;
+	System.out.println(value7);
+	System.out.println(value8);
+	System.out.println(value9);
+		*/
+		/*
+		System.out.println(2+3);
+		System.out.println(8-5);
+		System.out.println(7*2);
+		System.out.println(7/2);
+		System.out.println(8%5);
+		System.out.println();
+		
+		int value1 =3;
+		value1++;
+		System.out.println(value1);
+		
+		int value2 =3;
+		++value2;
+		System.out.println(value2);
+		System.out.println();
+		
+		int value3 =3;
+		int value4 = value3++;
+		System.out.println(value3);
+		System.out.println(value4);
+		System.out.println();
+		
+		int value5 = 3;
+		int value6 = ++value5;
+		System.out.println(value5);
+		System.out.println(value6);
+		System.out.println();
+		
+		int value7 = 3;
+		int value8 = 4;
+		int value9 = 2 + value7-- + ++ value8;
+		System.out.println(value7);
+		System.out.println(value8);
+		System.out.println(value9);
+		*/
+		
+//		&: and , |: or , ~: not , ^: xor
+		
+		/*
+		int data = 13;
+		System.out.println(Integer.toBinaryString(data));
+		System.out.println(Integer.toOctalString(data));
+		System.out.println(Integer.toHexString(data));
+		System.out.println();
+		
+		System.out.println(Integer.parseInt("1101", 2));
+		System.out.println(Integer.parseInt("15",8));
+		System.out.println(Integer.parseInt("0D",16));
+		System.out.println();
+		
+		System.out.println(13);
+		System.out.println(0b1101);
+		System.out.println(015);
+		System.out.println(0x0D);
+		System.out.println();
+		
+		System.out.println(3 & 10);
+		System.out.println(0b0011 & 0b1010);
+		System.out.println(0x03 & 0x0A);
+		System.out.println();
+		
+		System.out.println(3 | 10);
+		System.out.println(0b0011 | 0b1010);
+		System.out.println(0x03 | 0x0A);
+		System.out.println();
+		
+		System.out.println(3 ^ 10);
+		System.out.println(3 ^ 10);
+		System.out.println(0x03 ^ 0x0A);
+		System.out.println();
+		
+		System.out.println(~3);
+		System.out.println(~0b0011);
+		System.out.println(~0x03);
+		*/
+		
+/*		integer: 정수라는 뜻 
+		toBinary: 2진법
+		Octal: 8진법
+		Hex: 16진법
+		String: 묶다, 줄
+		파싱(Parsing)은 의미를 알 수 없는 문자열을 분해, 분석하여 의미 있는 형태로 변환합니다. 
+		이때 데이터를 분해, 분석하는 프로그램이 파서(parser)입니다.
+		 많은 분야에서 사용되며 하향식(Top-Down), 상향식(Bottom-Up) 파싱 기법이 있습니다.
+	*/	
+		/*
+		System.out.println(3 << 1);  // 3*2
+		System.out.println(-3 << 1); // -3*2
+		System.out.println(3 << 2); // 3*2*2
+		System.out.println(-3 << 2);  //-3*2*2
+		System.out.println();
+		
+		System.out.println(5 >> 1);  // 5/2 
+		System.out.println(-5 >> 1); // -5/2 -1
+		System.out.println(5 >> 2);  // 5/2/2 
+		System.out.println(-5 >> 2);  //-5/2/2 -1
+		System.out.println();
+		
+		
+		System.out.println(3 >>> 1);
+		System.out.println(-3 >>> 31); 
+		System.out.println();
+		
+		
+		System.out.println(5<<2);
+		System.out.println(0b00000101<<2);
+		System.out.println(5>>2);
+		System.out.println(0b00000101>>2);
+		System.out.println(-5>>2);
+		System.out.println((byte)0b11111011>>2);
+		System.out.println(0xffffffff>>>31);
+		
+		*/
+		
+//		0b00111000 = 0x38  (2진수와 16진수와의 관계)
+//		0b11110000 = 0xf0  (2진수의 4자리씩 끈어서 계산하면 16진수이다.)
+//		0b11111111 = 0xff    
+		
+		/*
+		System.out.println(5<2);
+		System.out.println(5>2);
+		System.out.println(5<5);
+		System.out.println(5<=5);
+		System.out.println(5>=5);
+		System.out.println();
+		
+		int a=5;
+		int b=2;
+		int c=5;
+		
+		System.out.println(a == b);
+		System.out.println(a != b);
+		System.out.println(a == c);
+		System.out.println(a != c);
+		System.out.println();
+		
+		String str1 = new String("안녕"); // str1과 str2가 할당된 주소값이 다르다.
+		String str2 = new String("안녕"); // str1은 100의 주소 str2는 200의 주소값을 갔는다.
+		System.out.println(str1 == str2); // 위의 int는 주소값 보다는 정수값을 계산한다.
+		 
+		*/
+		
+		/*
+		System.out.println(true && true);
+		System.out.println(true && false);
+		System.out.println(false && (5<3));
+		System.out.println((5>=5) && (2>2));
+		System.out.println();
+		
+		System.out.println(true || true);
+		System.out.println(true || false);
+		System.out.println(false || (5<3));
+		System.out.println((5 <= 5 || (7>2)));
+		System.out.println();
+		
+		System.out.println(true^true);
+		System.out.println(true^false);
+		System.out.println(false ^ (5<3));
+		System.out.println((5 <= 5)^ (7 >2));
+		System.out.println();
+		
+		System.out.println(!true);
+		System.out.println(!false);
+		System.out.println(false || !(5<3));
+		System.out.println(5 <= 5 == !(7>2));
+		System.out.println();
+		
+		System.out.println(true&true);
+		System.out.println(true&false);
+		System.out.println(true | (5<3));
+		System.out.println((5 <= 5) | (7 >2));
+		System.out.println();
+		
+		
+		int value1 =3; 
+		System.out.println(false && ++value1 > 6); //수행x
+		System.out.println(value1);
+		
+		int value2 =3;
+		System.out.println(false & ++value2 > 6);// 수행
+		System.out.println(value2);
+				
+		int value3 =3; 
+		System.out.println(false || ++value3 > 6);//수행x
+		System.out.println(value3);
+						
+		int value4 =3; 
+		System.out.println(false | ++value4 > 6);//수행
+		System.out.println(value4);
+			
+			*/
+			
+		/*
+		
+		int a=3, b=3, c=3;   //논리연산자(&&, ||, !, ^)
+		System.out.println(false && a++>6);
+		System.out.println(true || b++>6);
+		System.out.println(true ^ c++>6);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println();
+		
+		int d=3, e=3, f=3;   // 비트연산자(&, |, ~ ,^)
+		System.out.println(false & d++>6);
+		System.out.println(true | e++>6);
+		System.out.println(true ^ f++>6);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println();
+//		비트연산자의 XOR(^)와 논리연산의 XOR은 모두 '^'의 기호를 사용함.
+// 		논리연산자는 앞의 값(true)에 따라 뒤의 값의 계산을 수행하지만 
+ *     비트연산자는 앞의 값에 상관 없이 수행한다.		
+		
+		*/
+		
+		/*
+		int a = 3;
+		a=5;
+		System.out.println(a);
+		a=a+3;
+		System.out.println(a);
+		
+		int b = 3;
+		a*=5;
+		System.out.println(b);
+		
+		// a=a+1 -> a+=1 -> a++ 
+		// a=a-1 -> a-=1 -> a--
+		*/
+		
+		
+		/*
+		int value1 = 3;
+		value1 = value1 + 3;
+		System.out.println(value1);
+		System.out.println();
+		
+		int value2;
+		value2 = 5; System.out.println(value2 +=2);
+		value2 = 5; System.out.println(value2 -=2);
+		value2 = 5; System.out.println(value2 *=2);
+		value2 = 5; System.out.println(value2 /=2);
+		value2 = 5; System.out.println(value2 %=2);
+		value2 = 5; System.out.println(value2 |=2);
+		value2 = 5; System.out.println(value2 <<=2);
+		value2 = 5; System.out.println(value2 >>2);
+		value2 = 5; System.out.println(value2 >>>=2);
+		*/
+		
+		
+		/*
+//		삼항연산자
+		int a=(3>5)? 6:9;
+		System.out.println(a);
+		
+		int b=(5>3)? 10:20;
+		System.out.println(b);
+		
+		int c=3;
+		System.out.println((c % 2 ==0) ? "짝수" : "홀수");
+		
+		
+		// 삼항연산자를 if-else 구문으로 변환
+		if(c%2==0) {
+			System.out.println("짝수");
+		}else {
+			System.out.println("홀수");
+		}	
+		*/
+		
+/*  제어문과 제어키워드
+    선택제어문(if,switch), 반복제어문(for,while,do-while)
+			*/
+		
+	/*
+	 //if else else if
+	int value1 = 5;
+	if(value1 >3 ) {
+		System.out.println("실행1");
+	}
+	if(value1 <5) {
+		System.out.println("실행2");
+	}
+	
+	boolean bool1 = true;
+	boolean bool2 = false;
+	if(bool1) {
+		System.out.println("실행3");
+	}
+	if(bool2) {
+		System.out.println("실행4");
+	}
+		
+	int value2 = 5;
+	if(value2 > 3) {
+		System.out.println("실행5");
+	}
+	else {
+		System.out.println("실행6");
+	}
+	
+	System.out.println((value2 >3)? "실행5":"실행6");
+	System.out.println();
+	
+	System.out.print("점수 입력 : ");
+	Scanner sc = new Scanner(System.in);
+	int value3 = sc.nextInt();
+	if(value3 >= 90) {
+		System.out.println("A학점");
+	}
+	else if(value3 >= 80) {
+		System.out.println("B학점");
+	}
+	else if(value3 >= 70) {
+		System.out.println("C학점");
+	}
+	else {
+		System.out.println("F학점");
+	}
+	if(value3 >= 70) {
+		System.out.println("C학점");
+	}
+	else if(value3 >=80) {
+		System.out.println("B학점");
+	}
+	else if(value3 >= 90) {
+		System.out.println("A하점");
+	}
+	else {
+		System.out.println("F학점");
+	}
+	
+	if(value3 >= 70 && value3 < 80) {
+		System.out.println("C학점");
+	}
+	else if(value3>=80 && value3 <90) {
+		System.out.println("B학점");
+	}
+	else if(value3 >= 90) {
+		System.out.println("A학점");
+	}
+	else{
+			System.out.println("F학점");
+		}
+	*/
+		
+//	 switch case(특정위치로 점프시키는 역할)
+//	break(if문을 제외한 가장 가까운 중괄호{}를 탈출)
+		
+/*
+	int a=2;
+	switch (a){
+	case 1:
+		System.out.println("A");
+	case 2:
+		System.out.println("B");
+	case 3:
+		System.out.println("C");
+	default:
+		System.out.println("D");
+	}
+		System.out.println();
+		
+	int b=2;
+	switch (b){
+	case 1:
+		System.out.println("A");
+		break;
+	case 2:
+		System.out.println("B");
+		break;
+	case 3:
+		System.out.println("C");
+		break;
+	default:
+		System.out.println("D");
+	}
+	    System.out.println();
+		
+	int c=2;
+	switch (c){
+	case 1:	
+	case 2:	
+	case 3:
+		System.out.println("통과"); break;
+	default:
+		System.out.println("금지");
+	}
+	
+	
+	int t=8;
+	if(t>=7) {
+		System.out.println("Pass");
+	}
+	else if(t<=10) {
+		System.out.println("Pass");
+	}
+	else {
+		System.out.println("Fail");
+	}
+	
+	int h=6;
+	if((h>=7)&(h<=10)) {
+		System.out.println("Pass");
+	}
+	else {
+		System.out.println("Fail");
+	}
+	System.out.println();
+	
+	System.out.print("점수를 입력하세요: ");
+	Scanner sc = new Scanner(System.in);
+	int e= sc.nextInt();
+	switch (e){
+
+	case 1:	
+	case 2:	
+	case 3:
+		System.out.println("통과"); break;
+	default:
+		System.out.println("금지");
+	}
+	
+	System.out.print("점수 입력: ");
+	Scanner qw = new Scanner(System.in);
+	int value3 = qw.nextInt();
+	if(value3>=90) {
+		System.out.println("A학점");
+	} else if( value3 >= 80) {
+		System.out.println("B학점");
+	} else if( value3 >= 70) {
+		System.out.println("C학점");
+	} else {
+		System.out.println("F학점");
+	}
+	System.out.println();
+	
+		*/
+		
+	System.out.print("점수 입력: ");
+	Scanner r = new Scanner(System.in);
+	int value4 = r.nextInt();
+	switch (value4/10){
+	case 10:
+	case 9: 
+		System.out.println("A학점"); break;
+	case 8:	
+		System.out.println("B학점"); break;
+	case 7:
+		System.out.println("C학점"); break;
+	default:
+		System.out.println("F학점");
+	}
+	
+	
+	
+	}							
+} 

@@ -1,0 +1,20 @@
+package pack1;
+
+public class study4 {
+	public static void main(String[] args) {
+		
+		float value1 = 3; //대입할 수가 소숫점이 없다면 숫자뒤에 f를 붙이지 않아도 된다.
+		long value2 = 5;
+		double value3 = 7;
+		byte value4 = 9;
+		short value5 = 11;
+		System.out.println(value1+"\n"+value2+"\n"+value3+"\n"+value4+"\n"+value5);
+		System.out.println();
+		byte value6 = (byte)129; //범위를 넘은 수를 입력해도 변수값에 자료형을 붙여주면 자료형에 맞게 입력된다.
+		int value7 = (int)3.5;
+		float value8 = 7.5f;
+		System.out.println(value6+"\n"+value7+"\n"+value8+"\n");
+
+		
+	}
+}

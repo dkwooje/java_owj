@@ -1,0 +1,26 @@
+package pack9;
+
+public class studyA2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+1.
+A a = (double k) -> {system.out.println(k + 0.5);};
+
+2.
+A a = new A() {
+	@Override
+	public int abc(String str) {
+		return str.length();
+	}
+};
+
+3.
+A a = (int k) -> new B();
+
+4.
